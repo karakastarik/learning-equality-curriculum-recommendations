@@ -1,2 +1,2 @@
 # learning-equality-curriculum-recommendations
-Kaggle repo for the comoetition
+Repo for the Kaggle competition
