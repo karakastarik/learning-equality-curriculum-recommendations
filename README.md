@@ -6,8 +6,6 @@ Competition Goal: Recommend content items to curators for potential inclusion in
 
 Solution:
 
-Three steps of the competition:
-
 1. Stage 1: Use sentence transformers to extract embeddings for topics and contents. Fine-tuning with MultipleNegativesRanking loss boosted the score.
 2. Train a K-Nearest Neighbors (KNN) or Approximate Nearest Neighbors (ANN) algorithm to recommend related contents to topic.
 3. Stage 2: Re-rank (Binary Classification) using fine-tuned model from Stage 1. The metric is F2 so it is important to select proper threshold. 
